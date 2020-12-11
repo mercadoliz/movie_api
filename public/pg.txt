@@ -1,0 +1,6 @@
+INSERT INTO Directors (directorid, name, bio, birthyear, deathyear)VALUES(1, 'David E. Kelley','David Kelley might be described as living the American Dream, 1990s style: write a screenplay, move to Hollywood, make millions and marry a movie star.','1956-04-04',NULL)
+INSERT INTO Movies(Title, Description, GenreID, DirectorID,ImageUrl,Featured) VALUES('The Undoing','Life for a successful therapist in New York begins to unravel on the eve of publishing her first book.',1,1,'https://m.media-amazon.com/images/M/MV5BNzY5YTcxMWYtYjFkZi00ZmI3LThmYjgtMzY0YjQzZWFkNzQ4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg',True);
+UPDATE users 
+SET email = 'updateemail@gmail.com'
+WHERE userid = 1
+INSERT INTO USERS (Username, Password, Email, Birth_date)VALUES('elizabeth', 'webdev', 'mercadoliz08@gmail.com','1990-04-12')
