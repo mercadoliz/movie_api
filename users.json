@@ -1,34 +1,56 @@
-{
-    "_id" : ObjectId("5fd3d7a7134d65a75a743c87"),
-    "Username" : "Elizabeth",
-    "Password" : "Webdev",
-    "Email" : "mercadoliz@gmail.com",
-    "Birthday" : ISODate("1985-02-19T00:00:00Z"),
-    "FavoriteMovies" : [
-            ObjectId("5fd3d28f134d65a75a743c7d")
-    ]
-}
-{
-    "_id" : ObjectId("5fd3d7b4134d65a75a743c88"),
-    "Username" : "Anthony",
-    "Password" : "Wilson",
-    "Email" : "wilsonanthony@gmail.com",
-    "Birthday" : ISODate("1987-07-30T00:00:00Z"),
-    "FavoriteMovies" : [ ]
-}
-{
-    "_id" : ObjectId("5fd3d7d0134d65a75a743c8a"),
-    "Username" : "Mila",
-    "Password" : "Mercado",
-    "Email" : "mercadomila@gmail.com",
-    "Birthday" : ISODate("2014-11-07T00:00:00Z"),
-    "FavoriteMovies" : [ ]
-}
-{
-    "_id" : ObjectId("5fd3d7dc134d65a75a743c8b"),
-    "Username" : "Ana",
-    "Password" : "Mercado",
-    "Email" : "mercadoana@gmail.com",
-    "Birthday" : ISODate("1985-02-26T00:00:00Z"),
-    "FavoriteMovies" : [ ]
-}
+[{
+  "_id": {
+    "$oid": "5fd7a84ea4b1f48137ba3a53"
+  },
+  "Username": "Elizabeth",
+  "Password": "Webdev",
+  "Email": "mercadoliz@gmail.com",
+  "Birthday": {
+    "$date": "1985-02-19T00:00:00Z"
+  },
+  "FavoriteMovies": []
+},{
+  "_id": {
+    "$oid": "5fd8492ca4b1f48137ba3a5d"
+  },
+  "Username": "Anthony",
+  "Password": "Wilson",
+  "Email": "wilsonanthony@gmail.com",
+  "Birthday": {
+    "$date": "1987-07-30T00:00:00Z"
+  },
+  "FavoriteMovies": []
+},{
+  "_id": {
+    "$oid": "5fd8492ca4b1f48137ba3a5e"
+  },
+  "Username": "Adrian",
+  "Password": "Mercado",
+  "Email": "mercadoadrian@gmail.com",
+  "Birthday": {
+    "$date": "2007-06-05T00:00:00Z"
+  },
+  "FavoriteMovies": []
+},{
+  "_id": {
+    "$oid": "5fd8492ca4b1f48137ba3a5f"
+  },
+  "Username": "Mila",
+  "Password": "Mercado",
+  "Email": "mercadomila@gmail.com",
+  "Birthday": {
+    "$date": "2014-11-07T00:00:00Z"
+  },
+  "FavoriteMovies": []
+},{
+  "_id": {
+    "$oid": "5fd8492ca4b1f48137ba3a60"
+  },
+  "Username": "Ana",
+  "Password": "Mercado",
+  "Email": "mercadoana@gmail.com",
+  "Birthday": {
+    "$date": "1985-02-26T00:00:00Z"
+  },
+  "FavoriteMovies": []
+}]
