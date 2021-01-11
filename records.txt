@@ -1,0 +1,142 @@
+var movie1 = {
+  Title: "Silence of the Lambs",
+  Description: "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+  Genre: {
+    Name: "Thriller",
+    Description: "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+  },
+  Director: {
+    Name: "Jonathan Demme",
+    Bio: "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+    Birth: "1944",
+    Death: "2017"
+  },
+  ImagePath: "silenceofthelambs.png",
+  Featured: true
+}
+
+db.movies.insertOne(movie1)
+
+var movie2= {
+  Title: "Silence of the Lambs",
+  Description: "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+  Genre: {
+    Name: "Thriller",
+    Description: "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+  },
+  Director: {
+    Name: "Jonathan Demme",
+    Bio: "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+    Birth: "1944",
+    Death: "2017"
+  },
+  ImagePath: "silenceofthelambs.png",
+  Featured: true
+}
+
+db.movies.insertOne(movie2)
+
+var movie3= {
+  Title: "Rachel Getting Married",
+  "Description": "A young woman who has been in and out of rehab for the past ten years, returns home for the weekend for her sister's wedding.",
+  Genre: {
+    Name: "Thriller",
+    Description: "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+  },
+  Director: {
+    Name: "Jonathan Demme",
+    Bio: "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+    Birth: "1944",
+    Death: "2017"
+  },
+  "ImagePath": "https://m.media-amazon.com/images/M/MV5BMTU4MTQ0MzQwOF5BMl5BanBnXkFtZTcwODY1NDI5MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+  Featured: true
+}
+
+db.movies.insertOne(movie3)
+
+var movie4= {
+  Title: "Philidelphia",
+  "Description": "When a man with HIV is fired by his law firm because of his condition, he hires a homophobic small time lawyer as the only willing advocate for a wrongful dismissal suit.",
+  Genre: {
+    Name: "Thriller",
+    Description: "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+  },
+  Director: {
+    Name: "Jonathan Demme",
+    Bio: "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+    Birth: "1944",
+    Death: "2017"
+  },
+  "ImagePath": "https://m.media-amazon.com/images/M/MV5BNDE0MWE1ZTMtOWFkMS00YjdiLTkwZTItMDljYjY3MjM0NTk5XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+  Featured: true
+}
+
+db.movies.insertOne(movie4)
+
+var movie5= {
+  Title: "Knocked Up",
+  "Description": "When a man with HIV is fired by his law firm because of his condition, he hires a homophobic small time lawyer as the only willing advocate for a wrongful dismissal suit.",
+  Genre: {
+    Name: "Comedy",
+  "Description": "For fun-loving party animal Ben Stone, the last thing he ever expected was for his one-night stand to show up on his doorstep eight weeks later to tell him she's pregnant with his child.",
+  },
+  Director: {
+    Name: "Judd Apatow",
+    "Bio": "Judd Apatow is an American director, producer, and screenwriter.",
+    Birth: "1967",
+    Death: "null"
+  },
+  "ImagePath": "https://m.media-amazon.com/images/M/MV5BNzgzYjMzMWItNDFiYi00ZjhkLWIyMzYtZGRlY2FmNzkwNjRhL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+  Featured: true
+}
+
+db.movies.insertOne(movie5)
+
+var user1={
+    Username: "Elizabeth",
+    Password: "1234",
+    Email: "mercadoliz08@gmail.com",
+    Birthday: new Date ("1990-04-12")
+}
+db.users.insertOne(user1)
+
+var user2={
+    Username: "Anthony",
+    Password: "Wilson",
+    Email: "wilsonanthony@gmail.com",
+    Birthday: new Date ("1987-07-30")
+}
+db.users.insertOne(user2)
+
+var user3={
+    Username: "Adrian",
+    Password: "Mercado",
+    Email: "mercadoadrian@gmail.com",
+    Birthday: new Date ("2007-06-05")
+}
+db.users.insertOne(user3)
+
+var user4={
+    Username: "Mila",
+    Password: "Mercado",
+    Email: "mercadomila@gmail.com",
+    Birthday: new Date ("2014-11-07")
+}
+db.users.insertOne(user4)
+
+var user5={
+    Username: "Ana",
+    Password: "Mercado",
+    Email: "mercadoana@gmail.com",
+    Birthday: new Date ("1985-02-26")
+}
+db.users.insertOne(user5)
+
+{
+    "FavoriteMovies": [],
+    "Username": "Test1",
+    "Password": "Test1",
+    "Email": "test1@gmail.com",
+    "Birthday": "1985-02-19T00:00:00.000Z"
+}
