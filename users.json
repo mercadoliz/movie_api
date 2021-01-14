@@ -1,56 +1,7 @@
-[{
-  "_id": {
-    "$oid": "5fd7a84ea4b1f48137ba3a53"
-  },
-  "Username": "Elizabeth",
-  "Password": "Webdev",
-  "Email": "mercadoliz@gmail.com",
-  "Birthday": {
-    "$date": "1985-02-19T00:00:00Z"
-  },
-  "FavoriteMovies": []
-},{
-  "_id": {
-    "$oid": "5fd8492ca4b1f48137ba3a5d"
-  },
-  "Username": "Anthony",
-  "Password": "Wilson",
-  "Email": "wilsonanthony@gmail.com",
-  "Birthday": {
-    "$date": "1987-07-30T00:00:00Z"
-  },
-  "FavoriteMovies": []
-},{
-  "_id": {
-    "$oid": "5fd8492ca4b1f48137ba3a5e"
-  },
-  "Username": "Adrian",
-  "Password": "Mercado",
-  "Email": "mercadoadrian@gmail.com",
-  "Birthday": {
-    "$date": "2007-06-05T00:00:00Z"
-  },
-  "FavoriteMovies": []
-},{
-  "_id": {
-    "$oid": "5fd8492ca4b1f48137ba3a5f"
-  },
-  "Username": "Mila",
-  "Password": "Mercado",
-  "Email": "mercadomila@gmail.com",
-  "Birthday": {
-    "$date": "2014-11-07T00:00:00Z"
-  },
-  "FavoriteMovies": []
-},{
-  "_id": {
-    "$oid": "5fd8492ca4b1f48137ba3a60"
-  },
-  "Username": "Ana",
-  "Password": "Mercado",
-  "Email": "mercadoana@gmail.com",
-  "Birthday": {
-    "$date": "1985-02-26T00:00:00Z"
-  },
-  "FavoriteMovies": []
-}]
+{"_id":{"$oid":"5ff73f38ff5cf5266dbea268"},"Username":"Elizabeth","Password":"1234","Email":"mercadoliz08@gmail.com","Birthday":{"$date":"1990-04-12T00:00:00Z"}}
+{"_id":{"$oid":"5ffc70d1ff5cf5266dbea26c"},"Username":"Anthony","Password":"Wilson","Email":"wilsonanthony@gmail.com","Birthday":{"$date":"1987-07-30T00:00:00Z"}}
+{"_id":{"$oid":"5ffc70d1ff5cf5266dbea26d"},"Username":"Adrian","Password":"Mercado","Email":"mercadoadrian@gmail.com","Birthday":{"$date":"2007-06-05T00:00:00Z"}}
+{"_id":{"$oid":"5ffc70d1ff5cf5266dbea26e"},"Username":"Mila","Password":"Mercado","Email":"mercadomila@gmail.com","Birthday":{"$date":"2014-11-07T00:00:00Z"}}
+{"_id":{"$oid":"5ffc70d2ff5cf5266dbea26f"},"Username":"Ana","Password":"Mercado","Email":"mercadoana@gmail.com","Birthday":{"$date":"1985-02-26T00:00:00Z"}}
+{"_id":{"$oid":"5ffc7b244b3a524f4bed6e0f"},"FavoriteMovies":[],"Username":"Test1","Password":"Test1","Email":"test1@gmail.com","Birthday":{"$date":"1985-02-19T00:00:00Z"},"__v":0}
+{"_id":{"$oid":"60007e6f7d8e26649c5fad5e"},"FavoriteMovies":[],"Username":"test5","Password":"$2b$10$AaXteLFOp4jdxyBikkA18uN80sJWcLptTAw8qztHX.E3q7bzlJ62W","Email":"test5@gmail.com","Birthday":{"$date":"1990-04-12T00:00:00Z"},"__v":0}

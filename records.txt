@@ -140,3 +140,6 @@ db.users.insertOne(user5)
     "Email": "test1@gmail.com",
     "Birthday": "1985-02-19T00:00:00.000Z"
 }
+
+mongoimport --uri mongodb+srv://elizabeth:elizabeth@cluster0.g3ffq.mongodb.net/myFlixdb --collection movies --type json --file movies.json
+mongoimport --uri mongodb+srv://elizabeth:elizabeth@cluster0.g3ffq.mongodb.net/myFlixdb --collection users --type json --file users.json
