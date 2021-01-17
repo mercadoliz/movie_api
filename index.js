@@ -20,7 +20,7 @@ require('./passport');
 // local connection
 // mongoose.connect("mongodb://localhost:27017/myFlixdb", {useNewUrlParser: true});
 mongoose.connect(
-  CONNECTION_URI,
+  process.env.CONNECTION_URI,
   { useNewUrlParser: true }
 );
 
