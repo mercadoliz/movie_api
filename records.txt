@@ -143,3 +143,4 @@ db.users.insertOne(user5)
 
 mongoimport --uri mongodb+srv://elizabeth:elizabeth@cluster0.g3ffq.mongodb.net/myFlixdb --collection movies --type json --file movies.json
 mongoimport --uri mongodb+srv://elizabeth:elizabeth@cluster0.g3ffq.mongodb.net/myFlixdb --collection users --type json --file users.json
+mongodb+srv://elizabeth:elizabeth@cluster0.g3ffq.mongodb.net/myFlixdb?retryWrites=true&w=majority
