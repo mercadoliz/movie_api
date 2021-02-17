@@ -487,7 +487,7 @@ passport.authenticate("jwt", { session: false }),
   Users.findOneAndUpdate(
     { Username: req.params.Username },
     {
-      $push: { Fav: req.params.MovieID },
+      $push: { FavoriteMovies: req.params.MovieID },
     },
     { new: true }, // This line makes sure that the updated document is returned
     (err, updatedUser) => {
@@ -524,7 +524,7 @@ passport.authenticate("jwt", { session: false }),
 (req, res) => {
   Users.findOneAndUpdate(
     { Username: req.params.Username },
-    { $pull: { Fav: req.params.MovieID } },
+    { $pull: { FavoriteMovies: req.params.MovieID } },
     { new: true },
     (error, updatedUser) => {
       if (error) {
